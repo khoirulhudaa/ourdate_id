@@ -1,0 +1,588 @@
+@media screen and (max-width: 652px) {
+        
+    .navbar {
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #fff;
+        padding-left: 0px;
+        padding-right: 0px;
+        z-index: 3333;
+        box-shadow: 0 1px 2px rgba(129, 129, 129, 0.07), 
+        0 2px 4px rgba(83, 83, 83, 0.07), 
+        0 4px 8px rgba(141, 141, 141, 0.07), 
+        0 8px 16px rgba(104, 104, 104, 0.07),
+        0 16px 32px rgba(95, 95, 95, 0.07), 
+        0 32px 64px rgba(131, 131, 131, 0.07);
+    }
+    
+    .hero-homepage {
+        position: relative;
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        background-image: url('../images/banner/gelombang_hero.png');
+        background-size: contain;
+    }
+
+    .navbar .btn-katalog-navbar {
+        background-color: rgba(255, 107, 75, 1);
+        margin-left: 7px;
+        color: white;
+        border-radius: 0 8888px 8888px 0px;
+        cursor: pointer;
+        width: 190px;
+        height: 47px;
+        border: none;
+        margin-top: 10px;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    .wrap-hero-homepage {
+        display: block;
+        width: 100vw;
+        height: max-content;
+        padding-top: 50px;
+    }
+
+    .hero-homepage .wrap-hero-homepage .hero-child {
+        width: 100vw;
+        display: block;
+    }
+
+    .wrap-hero-homepage .hero-child h1 {
+        color: rgba(43, 57, 144, 1);
+        font-weight: bold;
+        width: 100%;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .hero-homepage .wrap-hero-homepage .hero-child2 {
+        display: none;
+    }
+
+    .hero-child .p {
+        line-height: 2em;
+        margin-left: 20px;
+        width: 90%;
+        font-size: 17px;
+        color: rgba(172, 173, 174, 1);
+    }
+
+    .hero-child2 img {
+        width: 60%;
+        position: relative;
+        top: 0;
+        display: none;
+    }
+
+    .btn-order {
+        border-radius: 0 8888px 8888px 0px;
+        outline: none;
+        border: none;
+        background-color: rgba(255, 107, 75, 1);
+        color: white;
+        font-weight: weight;
+        width: 150px;
+        transform: scale(1.2);
+        height: 40px;
+        position: relative;
+        margin-left: 35px;
+        left: 0px;
+        bottom: -10px;
+    }
+
+    .menu-katalog {
+        margin-top: 110px;
+        width: 100vw;
+        margin-left: auto;
+        padding-bottom: 50px;
+        margin-right: auto;
+    }
+    
+    .menu-katalog h2 {
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+        width: 100vw;
+    }
+    
+    .card-katalog {
+        position: relative;
+        width: 86vw;
+        height: max-content;
+        margin: 2px 2px 20px 2px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 13px;
+        height: 400px;
+        transform: scale(1);
+    }
+    
+    .card-katalog small {
+        opacity: 0.8;
+        font-size: 17px;
+    }
+    
+    .card-katalog p {
+        font-size: 24px;
+    }
+    
+    .card-katalog-head {
+        width: 100%;
+        overflow: hidden;
+        height: 40%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .card-katalog-head img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-katalog-content {
+        overflow: hidden;
+        width: 100%;
+        height: 60%;
+        padding: 12px;
+        padding-top: 20px;
+    }
+    
+    .card-katalog h4 {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    .menu-set {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: max-content;
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+    
+    .wrap-card-katalog {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .btn-menuz {
+        position: relative;
+        width: 60vw;
+        left: -27px;
+        background-color: transparent;
+        border-radius: 8888px;
+        border: 1px solid rgb(206, 206, 206);
+        transform: scale(1.2);
+        margin-top: 10px;
+        outline: none;
+    }
+
+    /* kode css untuk section 2 di homepage */
+
+    .section2 {
+        position: relative;
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section2-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2-left img {
+        width: 80%;
+        left: 0px;
+        position: relative;
+    }
+
+    .section2-right {
+        width: 100%;
+        display: flex;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .section2-right .card-undangan {
+        width: 90%;
+        margin: 20px;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .card-undangan img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .card-undangan p {
+        line-height: 2em;
+        width: 100%;
+        color: rgba(172, 173, 174, 1);
+        font-size: 15px;
+    }
+
+    .section3 {
+        position: relative;
+        width: 100vw;
+        margin-top: 100px;
+        height: max-content;
+        background-image: url('../images/banner/gelombang_fitur.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .section3 h2 {
+        color: rgba(43, 57, 144, 1);
+        font-weight: bold;
+        width: 100%;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 36px;
+    }
+    
+    .section3 .p {
+        text-align: left;
+        margin-left: 30px;
+        width:87vw;
+        color: rgb(177, 177, 177);
+    }
+
+    .wrap-section3 {
+        position: relative;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handphone-mid {
+        position: relative;
+        width: 97vw;
+        height: 530px;
+    }
+
+    .card-fitur {
+        width: 100vw;
+        display: flex;
+        padding: 20px;
+        height: max-content;
+        text-align: left;
+        margin-bottom: 40px;
+        transform: scale(0.9);
+        margin-left: auto;
+        z-index: 33;
+        margin-right: auto;
+        border-radius: 10px;
+        box-shadow: 0 1px 2px rgba(129, 129, 129, 0.07), 
+            0 2px 4px rgba(83, 83, 83, 0.07), 
+            0 4px 8px rgba(141, 141, 141, 0.07), 
+            0 8px 16px rgba(104, 104, 104, 0.07),
+            0 16px 32px rgba(95, 95, 95, 0.07), 
+            0 32px 64px rgba(131, 131, 131, 0.07);
+    }
+
+    .card-fitur img {
+        width : 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .card-fitur p {
+        line-height: 2em;
+        width: 100%;
+        color: rgba(172, 173, 174, 1);
+        font-size: 15px;
+    }
+
+    .section3-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        height: max-content;
+    }
+
+    .section3-mid {
+        width: 100%;
+        display: flex;
+        height: max-content;
+        justify-content: center;
+    }
+
+    .section3-right {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap-btn-fitur {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: max-content;
+        align-items: center;
+    }
+
+    .btn-fitur {
+        position: relative;
+        border-radius: 9999px;
+        outline: none;
+        border: none;
+        background-color: rgba(255, 107, 75, 1);
+        color: white;
+        font-weight: weight;
+        width: 150px;
+        left: -4px;
+        transform: scale(1.2);
+        height: 40px;
+        position: relative;
+        bottom: 0px;
+    }
+        
+    .section4 {
+        margin-top: 80px;
+    }
+    
+    .section4 h2 {
+        color: rgba(43, 57, 144, 1);
+        font-weight: bold;
+        width: 90%;
+        margin-left: auto;
+        text-align: left;
+        margin-right: auto;
+        font-size: 36px;
+    }
+    
+    .section4 .p {
+        text-align: left;
+        margin-left: 20px;
+        color: rgb(180, 180, 180);
+        margin-bottom: 65px;
+        width: 90vw;
+    }
+    
+    .wrap-pricing {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-pricing {
+        margin: 10px;
+        border-radius: 10px;
+        width: 90vw;
+        overflow: hidden;
+        height: max-content;
+        box-shadow: 0 1px 2px rgba(129, 129, 129, 0.07), 
+        0 2px 4px rgba(83, 83, 83, 0.07), 
+        0 4px 8px rgba(141, 141, 141, 0.07), 
+        0 8px 16px rgba(104, 104, 104, 0.07),
+        0 16px 32px rgba(95, 95, 95, 0.07), 
+        0 32px 64px rgba(131, 131, 131, 0.07);
+        transform: scale(0.96);
+    }
+    
+    .card-pricing-content {
+        padding-top: 20px;
+    }
+    
+    .card-pricing-content small {
+        opacity: 0.9;
+        font-size: 17px;
+        margin-top: 30px;
+        position: relative;
+        margin-left: 30px;
+    }
+    
+    .not {
+        opacity: 0.6;
+    }
+    
+    .card-pricing ul li {
+        list-style: none;
+        margin-bottom: 14px;
+        font-weight: 500;
+    }
+    
+    .card-pricing ul {
+        margin-top: 20px;
+    }
+    
+    .card-pricing ul li img {
+        margin-right: 20px;
+    }
+    
+    .menu-button {
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .menu-button button {
+        border: none;
+        outline: none;
+        width: 50%;
+        height: 60px;
+        font-weight: bold;
+    }
+    
+    .bantuan {
+        border-radius: 0 0 0px 13px;
+        color: rgba(255, 107, 75, 1);
+    }
+    
+    .btn-menuz {
+        background-color: transparent;
+        border-radius: 8888px;
+        border: 1px solid rgb(206, 206, 206);
+        transform: scale(1.2);
+        outline: none;
+    }
+    
+    .order-sekarang {
+        border-radius: 0 0 13px 0px;
+        background-color: rgba(255, 107, 75, 1);
+        color: white;
+        transition: 0.4s;
+    }
+    
+    .order-sekarang:hover {
+        transition: 0.4s;
+        filter: brightness(80%);
+    }
+    
+    .section5 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        display: flex;
+        background-image: url('../images/banner/gelombang_footer.png');
+        background-size: cover;
+        width: 100vw;
+        height: max-content;
+        flex-direction: column;
+        background-repeat: no-repeat;
+    }
+    
+    .section5-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .section5-left img {
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .section5-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .section5-right h3 {
+        font-weight: bold;
+        font-size: 36px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .section5 .p {
+        margin-left: 20px;
+        width: 90vw;
+        color: rgb(165, 161, 161);
+    }
+    
+    .btn-ask {
+        width: 90%;
+        margin-bottom: 20px;
+        height: max-content;
+        outline: none;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: auto;
+        padding-left: 10px;
+        border: 1px solid rgba(209, 209, 209, 0.747)
+    }
+    
+    .btn-ask:active {
+        outline: none;
+    }
+    
+    .aask {
+        margin-bottom: 22px;
+        width: 90vw;
+        margin-left: 20px;
+    }
+        
+    footer {
+        position: relative;
+        width: 100vw;
+        margin-top: 0px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 90px 10px 90px;
+        align-items: center;
+    }
+    
+    .footer-left {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer img {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer li {
+        list-style: none;
+        margin-left: 20px;
+        display: none;
+    }
+    
+    .footer-right {
+        display: flex;
+    }
+  
+}

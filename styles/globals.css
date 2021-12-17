@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h5 {
+  font-family: 'Lora', serif;
+}
+
+p, small, span, a, h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 3333;
+  box-shadow: 0 1px 2px rgba(129, 129, 129, 0.07), 
+    0 2px 4px rgba(83, 83, 83, 0.07), 
+    0 4px 8px rgba(141, 141, 141, 0.07), 
+    0 8px 16px rgba(104, 104, 104, 0.07),
+    0 16px 32px rgba(95, 95, 95, 0.07), 
+    0 32px 64px rgba(131, 131, 131, 0.07);
+}
+
+.navbar img {
+  width: 130px;
+}
+
+.navbar a {
+  color: rgba(64, 72, 82, 1);
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 7px;
+  font-weight: 700;
+}
+
+.navbar .btn-katalog-navbar {
+  background-color: rgba(255, 107, 75, 1);
+  margin-left: 7px;
+  color: white;
+  border-radius: 8888px;
+  cursor: pointer;
+  width: 190px;
+  height: 47px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.navbar .btn-katalog-navbar:hover {
+  transition: 0.4s;
+  filter: brightness(80%)
+}
+
+.hero-homepage {
+  position: relative;
+  width: 100vw;
+  height: 550px;
+  display: flex;
+  background-image: url('../images/banner/gelombang_hero.png');
+  background-size: contain;
+}
+
+.wrap-hero-homepage {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
+
+.hero-homepage .wrap-hero-homepage .hero-child {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-homepage .wrap-hero-homepage .hero-child2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-hero-homepage .hero-child h1 {
+  color: rgba(43, 57, 144, 1);
+  font-weight: bold;
+  width: 90%;
+  font-size: 55px;
+  margin-left: 110px;
+}
+
+.hero-child .p {
+  line-height: 2em;
+  margin-left: 120px;
+  width: 90%;
+  font-size: 17px;
+  color: rgba(172, 173, 174, 1);
+}
+
+.hero-child2 img {
+  width: 60%;
+  position: relative;
+  top: 60px;
+}
+
+.btn-order {
+  border-radius: 9999px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 107, 75, 1);
+  color: white;
+  font-weight: weight;
+  width: 150px;
+  transform: scale(1.2);
+  height: 40px;
+  position: absolute;
+  margin-left: 110px;
+  left: 0px;
+  bottom: 90px;
+}
+
+.btn-order p {
+  position: relative;
+  top: 6px;
+  margin-left: 0px;
+}
+
+
+/* kode css untuk section 2 di homepage */
+
+.section2 {
+  position: relative;
+  margin-top: 130px;
+  display: flex;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section2-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-left img {
+  width: 80%;
+  left: -10px;
+  position: relative;
+}
+
+.section2-right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section2-right .card-undangan {
+  width: 45%;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card-undangan img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.card-undangan p {
+  line-height: 2em;
+  width: 100%;
+  color: rgba(172, 173, 174, 1);
+  font-size: 15px;
+}
+
+.section3 {
+  position: relative;
+  width: 100vw;
+  margin-top: 100px;
+  height: max-content;
+  background-image: url('../images/banner/gelombang_fitur.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section3 h2 {
+  color: rgba(43, 57, 144, 1);
+  font-weight: bold;
+  width: 90%;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  font-size: 55px;
+}
+
+.section3 p {
+  text-align: center;
+}
+
+.wrap-section3 {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.handphone-mid {
+  width: 470px;
+  height: 780px;
+}
+
+.card-fitur {
+  width: 350px;
+  display: flex;
+  padding: 20px;
+  height: max-content;
+  margin-bottom: 40px;
+  transform: scale(0.9);
+  margin-left: auto;
+  z-index: 33;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(129, 129, 129, 0.07), 
+    0 2px 4px rgba(83, 83, 83, 0.07), 
+    0 4px 8px rgba(141, 141, 141, 0.07), 
+    0 8px 16px rgba(104, 104, 104, 0.07),
+    0 16px 32px rgba(95, 95, 95, 0.07), 
+    0 32px 64px rgba(131, 131, 131, 0.07);
+}
+
+.card-fitur img {
+  width : 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.card-fitur p {
+  line-height: 2em;
+  width: 100%;
+  color: rgba(172, 173, 174, 1);
+  font-size: 15px;
+}
+
+.section3-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: max-content;
+}
+
+.section3-mid {
+  width: 33%;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+}
+
+.section3-right {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-btn-fitur {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  align-items: center;
+}
+
+.btn-fitur {
+  position: relative;
+  border-radius: 9999px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 107, 75, 1);
+  color: white;
+  font-weight: weight;
+  width: 150px;
+  left: -4px;
+  transform: scale(1.2);
+  height: 40px;
+  position: relative;
+  bottom: 90px;
+}
+
+.section4 {
+  margin-top: 50px;
+}
+
+.section4 h2 {
+  color: rgba(43, 57, 144, 1);
+  font-weight: bold;
+  width: 90%;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  font-size: 55px;
+}
+
+.section4 .p {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.wrap-pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-pricing {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: max-content;
+  box-shadow: 0 1px 2px rgba(129, 129, 129, 0.07), 
+    0 2px 4px rgba(83, 83, 83, 0.07), 
+    0 4px 8px rgba(141, 141, 141, 0.07), 
+    0 8px 16px rgba(104, 104, 104, 0.07),
+    0 16px 32px rgba(95, 95, 95, 0.07), 
+    0 32px 64px rgba(131, 131, 131, 0.07);
+  transform: scale(0.96);
+}
+
+.card-pricing-content {
+  padding-top: 20px;
+}
+
+.card-pricing-content small {
+  opacity: 0.9;
+  font-size: 17px;
+  margin-top: 30px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.not {
+  opacity: 0.6;
+}
+
+.card-pricing ul li {
+  list-style: none;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+
+.card-pricing ul {
+  margin-top: 20px;
+}
+
+.card-pricing ul li img {
+  margin-right: 20px;
+}
+
+.menu-button {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.menu-button button {
+  border: none;
+  outline: none;
+  width: 50%;
+  height: 60px;
+  font-weight: bold;
+}
+
+.bantuan {
+  border-radius: 0 0 0px 13px;
+  color: rgba(255, 107, 75, 1);
+}
+
+.btn-menuz {
+  background-color: transparent;
+  border-radius: 8888px;
+  border: 1px solid rgb(206, 206, 206);
+  transform: scale(1.2);
+  outline: none;
+}
+
+.order-sekarang {
+  border-radius: 0 0 13px 0px;
+  background-color: rgba(255, 107, 75, 1);
+  color: white;
+  transition: 0.4s;
+}
+
+.order-sekarang:hover {
+  transition: 0.4s;
+  filter: brightness(80%);
+}
+
+.section5 {
+  padding-top: 160px;
+  padding-bottom: 70px;
+  display: flex;
+  background-image: url('../images/banner/gelombang_footer.png');
+  background-size: cover;
+  width: 100vw;
+  height: max-content;
+  background-repeat: no-repeat;
+}
+
+.section5-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.section5-left img {
+  width: 60%;
+}
+
+.section5-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.section5-right h3 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.btn-ask {
+  width: 80%;
+  margin-bottom: 20px;
+  height: 50px;
+  outline: none;
+  text-align: left;
+  padding-left: 30px;
+  border: 1px solid rgba(209, 209, 209, 0.747)
+}
+
+.btn-ask:active {
+  outline: none;
+}
+
+.aask {
+  margin-bottom: 22px;
+}
+
+footer {
+  position: relative;
+  width: 100vw;
+  margin-top: 0px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 90px 10px 90px;
+  align-items: center;
+}
+
+footer img {
+  width: 150px;
+}
+
+footer li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.menu-katalog {
+  margin-top: 110px;
+  width: 90vw;
+  margin-left: auto;
+  padding-bottom: 50px;
+  margin-right: auto;
+}
+
+.menu-katalog h2 {
+  font-weight: bold;
+  position: relative;
+  left: -55px;
+}
+
+.card-katalog {
+  position: relative;
+  width: 300px;
+  height: max-content;
+  margin: 2px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 13px;
+  height: 400px;
+  transform: scale(0.8);
+}
+
+.card-katalog small {
+  opacity: 0.8;
+  font-size: 17px;
+}
+
+.card-katalog p {
+  font-size: 24px;
+}
+
+.card-katalog-head {
+  width: 100%;
+  overflow: hidden;
+  height: 40%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-katalog-head img {
+  width: 100%;
+  height: auto;
+}
+
+.card-katalog-content {
+  overflow: hidden;
+  width: 100%;
+  height: 60%;
+  padding: 12px;
+  padding-top: 20px;
+}
+
+.card-katalog h4 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.menu-set {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: max-content;
+  margin-bottom: 40px;
+  padding: 10px 90px 10px 90px;
+}
+
+.wrap-card-katalog {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
