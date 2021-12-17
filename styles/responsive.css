@@ -571,8 +571,10 @@
 
     footer img {
         width: 150px;
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        top: 23px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     footer li {
