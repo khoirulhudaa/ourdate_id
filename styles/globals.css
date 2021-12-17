@@ -372,11 +372,19 @@ p, small, span, a, h4 {
 }
 
 .card3 .card-pricing-head3 {
+  position: relative;
   width: 100%;
   padding: 30px;
   height: 265px;
   background: rgba(43, 57, 144, 1);
   color: white;
+}
+
+.bestSeller {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 130px;
 }
 
 .card2 .card-pricing-head3 {
@@ -431,9 +439,9 @@ p, small, span, a, h4 {
 .why h2 {
   font-weight: bold;
   width: 80%;
-  font-size: 40px;
+  font-size: 53px;
   left: 50px;
-  top: 170px;
+  top: 130px;
   position: absolute;
 }
 
