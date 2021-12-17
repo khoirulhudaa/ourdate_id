@@ -46,6 +46,19 @@
         padding-top: 50px;
     }
 
+    .why {
+        transform: scale(0.85);
+    }
+
+    .why h2 {
+        font-weight: bold;
+        width: 80%;
+        font-size: 40px;
+        left: 30px;
+        top: 170px;
+        position: absolute;
+    }
+
     .hero-homepage .wrap-hero-homepage .hero-child {
         width: 100vw;
         display: block;
