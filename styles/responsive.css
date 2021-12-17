@@ -59,6 +59,13 @@
         position: absolute;
     }
 
+    .bestSeller {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 130px;
+    }
+
     .hero-homepage .wrap-hero-homepage .hero-child {
         width: 100vw;
         display: block;
