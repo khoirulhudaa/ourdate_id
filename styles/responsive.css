@@ -532,17 +532,19 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        padding-top: 30px;
     }
     
     .section5-right h3 {
         font-weight: bold;
         font-size: 36px;
-        margin-left: 20px;
+        margin-left: 22px;
         margin-top: 40px;
+        color: rgba(43, 57, 144, 1);
     }
 
     .section5 .p {
-        margin-left: 20px;
+        margin-left: 22px;
         width: 90vw;
         color: rgb(165, 161, 161);
     }
@@ -550,7 +552,7 @@
     .btn-ask {
         width: 90%;
         margin-bottom: 20px;
-        height: max-content;
+        height: 70px;
         outline: none;
         text-align: left;
         margin-left: 20px;
@@ -566,7 +568,12 @@
     .aask {
         margin-bottom: 22px;
         width: 90%;
+        background-color: transparent;
         margin-left: 20px;
+    }
+
+    .aask .card {
+        background-color: transparent;
     }
         
     footer {
